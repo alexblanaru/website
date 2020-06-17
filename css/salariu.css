@@ -1,0 +1,198 @@
+body {
+  background-color: rgb(128, 133, 131);
+}
+#pren {
+  color: white;
+}
+#income {
+  position: relative;
+  left: 187px;
+  top: 40px;
+  width: 500px;
+  height: 25px;
+}
+h4 {
+  position: relative;
+  top: 10px;
+  left: 8px;
+}
+#brut {
+  position: relative;
+  top: 90px;
+  left: -10px;
+  color: white;
+}
+#firstName {
+  position: relative;
+  top: -2px;
+  left: 107px;
+}
+
+#lastName1 {
+  position: relative;
+  top: 22px;
+  color: white;
+}
+
+#lastName {
+  position: relative;
+  top: 22px;
+
+  left: 31px;
+}
+
+#employeeId1 {
+  position: relative;
+  top: 50px;
+  color: white;
+}
+
+#employeeId {
+  position: relative;
+  top: 50px;
+  left: 48px;
+}
+
+#jobTitle1 {
+  position: relative;
+  top: 80px;
+  color: white;
+}
+
+#jobTitle {
+  position: relative;
+  top: 80px;
+  left: 24px;
+}
+
+.tabelv {
+  margin: 0 auto;
+  width: 800px;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  font-size: 20px;
+  position: relative;
+  left: 40px;
+  top: -70px;
+  height: 315px;
+
+  background-color: rgb(76, 77, 75);
+}
+
+.input-box {
+  position: relative;
+  left: 30px;
+  width: 500px;
+  height: 25px;
+  top: 75px;
+
+  color: black;
+}
+
+#tax {
+  position: relative;
+  left: 610px;
+  top: 355px;
+  width: 150px;
+  height: 30px;
+}
+
+#snet1 {
+  position: relative;
+  left: 480px;
+  top: 425px;
+  font-size: 23px;
+}
+
+#sallc {
+  position: relative;
+  left: 525px;
+}
+
+#taxcal {
+  background-color: rgb(58, 63, 63);
+  color: whitesmoke;
+  position: relative;
+  left: 330px;
+  top: 60px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#taxcal:after {
+  content: "";
+  background: #90ee90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+#taxcal:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.Calculator {
+  position: relative;
+  background-color: rgb(100, 192, 192);
+  top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.buton {
+  text-align: center;
+  position: relative;
+  left: 910px;
+
+  background-color: #576464;
+
+  font-size: 12px;
+  top: 35px;
+  padding: 5px;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  color: black;
+  font-size: large;
+  cursor: pointer;
+}
+.buton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.buton span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.buton:hover span {
+  padding-right: 25px;
+}
+
+.buton:hover span:after {
+  opacity: 1;
+  right: 0;
+}

@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(17, 17, 17);
+}
+
+#poza1 {
+  position: relative;
+  left: 750px;
+}
+.checked {
+  color: orange;
+}
+#poza2 {
+  position: relative;
+  padding: 1px;
+  border: 4px solid rgb(56, 56, 56);
+  -webkit-box-shadow: 3px 2px 14px 8px rgb(56, 56, 56);
+  -moz-box-shadow: 3px 2px 14px 8px rgb(56, 56, 56);
+  box-shadow: 3px 2px 14px 8px rgb(56, 56, 56);
+  left: 100px;
+  top: 70px;
+}
+#h42 {
+  position: relative;
+  color: white;
+  left: 500px;
+  top: -250px;
+}
+#div1 {
+  height: 400px;
+  background: linear-gradient(to right, #000000, #6a7c72);
+}
+#div2 {
+  background-color: rgb(37, 37, 37);
+  width: 1332px;
+  height: 450px;
+}
+.div3 {
+  color: white;
+  position: relative;
+  left: 500px;
+  top: -195px;
+}
+#salut {
+  position: relative;
+  color: white;
+  top: -330px;
+  left: 80px;
+  font-size: 28px;
+}
+#nume {
+  position: relative;
+  color: white;
+  top: -330px;
+  font-size: 80px;
+  left: 50px;
+}
+.buton {
+  text-align: center;
+  position: relative;
+  left: 910px;
+
+  background-color: rgb(17, 17, 17);
+
+  font-size: 12px;
+  top: -6px;
+  padding: 5px;
+  border: none;
+  color: white;
+
+  cursor: pointer;
+}
+.buton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.buton span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.buton:hover span {
+  padding-right: 25px;
+}
+
+.buton:hover span:after {
+  opacity: 1;
+  right: 0;
+}

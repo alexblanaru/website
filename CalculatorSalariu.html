@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator Salari</title>
+    <link href="css/salariu.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/salariu.js"></script>
+  </head>
+  <body>
+    <button
+      class="buton"
+      type="button"
+      onclick="window.location.href = 'js.html'"
+    >
+      <span> Despre mine</span>
+    </button>
+    <button
+      class="buton"
+      type="button"
+      onclick="window.location.href = 'CalculatorTips.html'"
+    >
+      <span>Calculator Tips</span>
+    </button>
+    <button
+      class="buton"
+      type="button"
+      onclick="window.location.href = 'CalculatorSalariu.html'"
+    >
+      <span>Calculator Salariu</span>
+    </button>
+    <form>
+      <h1 id="sallc">Salariul lunar in companie</h1>
+
+      <label><h3 id="snet1">Salariu net:</h3></label><br />
+      <input id="tax" type="number" name="tax" disabled />
+    </form>
+
+    <div class="tabelv">
+      <div>
+        <label id="pren">Prenume:</label>
+        <input type="text" id="firstName" class="input-box" />
+      </div>
+      <div>
+        <label id="lastName1"> Numele de familie:</label>
+        <input type="text" id="lastName" class="input-box" />
+      </div>
+      <div>
+        <label id="employeeId1">Id-ul angajatului:</label>
+        <input type="number" id="employeeId" class="input-box" ng-model="" />
+      </div>
+      <div>
+        <label id="jobTitle1"> Denumirea funcției:</label>
+        <input type="text" id="jobTitle" class="input-box" />
+      </div>
+      <div>
+        <label><h3 id="brut">Salariu brut:</h3></label>
+        <input id="income" type="number" name="income" min="0" /><br />
+        <button
+          id="taxcal"
+          type="button"
+          name="button"
+          onclick="calculatetax();"
+        >
+          Calculeaza
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

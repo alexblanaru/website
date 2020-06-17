@@ -1,0 +1,102 @@
+.buton {
+  background-color: transparent;
+  border: none;
+}
+
+span {
+  position: relative;
+  top: 5px;
+  font-size: large;
+}
+
+.buton {
+  position: relative;
+  left: 850px;
+  top: 250px;
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+}
+
+.buton {
+  text-align: center;
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+}
+.buton span {
+  z-index: 2;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.buton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(12, 233, 233, 0.2);
+  background-color: rgba(12, 233, 233, 0.2);
+}
+.buton::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(12, 233, 233, 0.2);
+  background-color: rgba(12, 233, 233, 0.2);
+}
+.buton:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgba(12, 233, 233, 0.2);
+}
+.buton:hover::after {
+  transform: rotate(45deg);
+  background-color: rgba(12, 233, 233, 0.2);
+}
+
+/* #butonas {
+  -webkit-animation: rotate-vert-left 14s cubic-bezier(0.645, 0.045, 0.355, 1)
+    infinite both;
+  animation: rotate-vert-left 14s cubic-bezier(0.645, 0.045, 0.355, 1) infinite
+    both;
+}
+@-webkit-keyframes rotate-vert-left {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+  }
+}
+@keyframes rotate-vert-left {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+  }
+} */

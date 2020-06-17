@@ -1,0 +1,212 @@
+body {
+  background: linear-gradient(to right, #1f2252, #dfdfec);
+}
+#clienti2 {
+  position: relative;
+  top: -40px;
+  left: 225px;
+}
+#mutare2 {
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+.buton {
+  text-align: center;
+  position: relative;
+  left: 910px;
+
+  background-color: #9596cc;
+
+  font-size: 12px;
+  top: 35px;
+  padding: 5px;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  color: black;
+  font-size: large;
+  cursor: pointer;
+}
+.buton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.buton span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.buton:hover span {
+  padding-right: 25px;
+}
+
+.buton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#Calculatorul {
+  position: relative;
+  height: 565px;
+  width: 360px;
+  margin: 100px auto;
+  background: rgb(108, 123, 192);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  top: -85px;
+}
+
+h1 {
+  background: #0c1d7ede;
+  color: white;
+  margin: 0;
+  padding: 10px 100px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+p {
+  padding-left: 20px;
+}
+
+form input[type="text"] {
+  width: 90px;
+}
+
+input {
+  padding-left: 20px;
+}
+
+#notaa {
+  position: relative;
+  font-size: 14px;
+  left: 25px;
+  color: black;
+  background-color: #f7f7f7;
+  width: 60%;
+  padding: 8px 8px 8px 60px;
+}
+#mutare {
+  position: relative;
+  left: 250px;
+  top: -42px;
+}
+#notaa:focus {
+  background: #fff;
+  border: 3px solid #8aa4b4;
+  outline: none;
+}
+#caticlienti {
+  position: relative;
+  left: 20px;
+}
+#nrclient {
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  color: black;
+  background-color: #f7f7f7;
+  font-size: 14px;
+}
+
+.dollarSign {
+  display: inline;
+}
+
+#Optiuni {
+  padding: 13px 13px 20px 20px;
+  margin-left: 20px;
+  font-size: 25px;
+}
+#Fiecare {
+  position: relative;
+  top: -31px;
+}
+.butontips {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: #1389ad;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+}
+
+.butontips {
+  border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, 0.5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.butontips:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5),
+    0 0 20px rgba(255, 255, 255, 0.2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
+/* 
+.butontips:hover {
+  background: #98ddfd;
+  border-bottom-color: #111;
+} */
+
+.butontips:active {
+  position: relative;
+  top: 1px;
+}
+#servicile {
+  position: relative;
+  top: -25px;
+}
+#tip {
+  position: relative;
+  top: -26px;
+  left: 3px;
+}
+#totalTips {
+  font-size: 30px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#totalTips:before {
+  position: relative;
+  content: "TOTAL";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+  top: -25px;
+}
+
+#totalTips sup {
+  font-size: 20px;
+  top: -18px;
+}
+
+#totalTips small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}

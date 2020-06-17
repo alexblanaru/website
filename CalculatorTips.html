@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Calculator Tips</title>
+    <link href="css/style2.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <button
+      class="buton"
+      type="button"
+      onclick="window.location.href = 'js.html'"
+    >
+      <span> Despre mine</span>
+    </button>
+    <button
+      class="buton"
+      type="button"
+      onclick="window.location.href = 'CalculatorTips.html'"
+    >
+      <span>Calculator Tips</span>
+    </button>
+    <button
+      class="buton"
+      type="button"
+      onclick="window.location.href = 'CalculatorSalariu.html'"
+    >
+      <span>Calculator Salariu</span>
+    </button>
+
+
+
+
+
+
+
+
+
+
+    <div id="Calculatorul">
+      <h1>Tip Calculator</h1>
+      <div id="calculator">
+        <form>
+          <p>Cat a fost nota dvs?</p>
+          <p><input id="notaa" type="text" placeholder="Nota de plata" /><p id = "mutare">lei</p></p>
+
+          <p id="servicile">Cum au fost prestate servicile?</p>
+          <p>
+            <select id="Optiuni">
+              <option disabled selected value="0">--Alege o opțiune --</option>
+              <option value="0.3">30&#37; &#45;Exceptional</option>
+              <option value="0.2">20&#37; &#45; Impresionant</option>
+              <option value="0.15">15&#37; &#45; A fost bine </option>
+              <option value="0.1">10&#37; &#45; Rau</option>
+              <option value="0.05">5&#37; &#45; Terribl</option>
+            </select>
+          </p>
+        </form>
+
+        <p id="caticlienti">Cati clienti impart nota de plata?</p>
+        <input id="nrclient" type="text" placeholder=" Numarul de clienti" />
+        <p id="clienti2">clienti</p>
+        <button type="button" class="butontips" id="calcul">Calculeaza!</button>
+      </div>
+
+      <div id="totalTips">
+        <span id="tip">0.00</span><sup id="mutare2">lei</sup>
+        <small id="Fiecare">Fiecare</small>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
