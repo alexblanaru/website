@@ -1,4 +1,3 @@
-321312; // Write JavaScript here
 function calculatetax() {
   var salary = document.getElementById("income").value;
 
